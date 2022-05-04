@@ -45,36 +45,7 @@ public class CategoryConfig {
                                                     )
                                             )
                                     ),
-                                    @ApiResponse(
-                                            responseCode = "400",
-                                            description = "Bad request",
-                                            content = @io.swagger.v3.oas.annotations.media.Content(
-                                                    mediaType = APPLICATION_JSON_VALUE,
-                                                    schema = @io.swagger.v3.oas.annotations.media.Schema(
-                                                            implementation = Category.class
-                                                    )
-                                            )
-                                    ),
-                                    @ApiResponse(
-                                            responseCode = "401",
-                                            description = "Unauthorized",
-                                            content = @io.swagger.v3.oas.annotations.media.Content(
-                                                    mediaType = APPLICATION_JSON_VALUE,
-                                                    schema = @io.swagger.v3.oas.annotations.media.Schema(
-                                                            implementation = Category.class
-                                                    )
-                                            )
-                                    ),
-                                    @ApiResponse(
-                                            responseCode = "403",
-                                            description = "Forbidden",
-                                            content = @io.swagger.v3.oas.annotations.media.Content(
-                                                    mediaType = APPLICATION_JSON_VALUE,
-                                                    schema = @io.swagger.v3.oas.annotations.media.Schema(
-                                                            implementation = Category.class
-                                                    )
-                                            )
-                                    ),
+
                             }
 
                     )
